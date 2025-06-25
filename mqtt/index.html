@@ -1,0 +1,842 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="../monitoring/" rel="prev"/>
+<link href="../opc-ua/" rel="next"/>
+<link href="../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.5.3, mkdocs-material-9.5.7" name="generator"/>
+<title>MQTT - Glossary</title>
+<link href="../assets/stylesheets/main.f2e4d321.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+</head>
+<body dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#mqtt">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header md-header--shadow" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="Glossary" class="md-header__button md-logo" data-md-component="logo" href=".." title="Glossary">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Glossary
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              MQTT
+            
+          </span>
+</div>
+</div>
+</div>
+<script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Glossary" class="md-nav__button md-logo" data-md-component="logo" href=".." title="Glossary">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+</a>
+    Glossary
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+<span class="md-ellipsis">
+    A
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_1_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_1">
+<span class="md-nav__icon md-icon"></span>
+            A
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../anomaly-detection/">
+<span class="md-ellipsis">
+    Anomaly Detection
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+<span class="md-ellipsis">
+    C
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+            C
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../configuration-management/">
+<span class="md-ellipsis">
+    Configuration Management
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+<span class="md-ellipsis">
+    D
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+            D
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data-integration/">
+<span class="md-ellipsis">
+    Data Integration
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data-orchestration/">
+<span class="md-ellipsis">
+    Data Orchestration
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data-preparation/">
+<span class="md-ellipsis">
+    Data Preparation
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data-transformation/">
+<span class="md-ellipsis">
+    Data Transformation
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../digital-twin/">
+<span class="md-ellipsis">
+    Digital Twin
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+<span class="md-ellipsis">
+    E
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+            E
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../event-driven-architecture/">
+<span class="md-ellipsis">
+    Event-Driven Architecture
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+<span class="md-ellipsis">
+    F
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_5_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_5">
+<span class="md-nav__icon md-icon"></span>
+            F
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../functional-mock-up-unit/">
+<span class="md-ellipsis">
+    Functional Mock-Up Unit
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+<span class="md-ellipsis">
+    H
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_6">
+<span class="md-nav__icon md-icon"></span>
+            H
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../hardware-in-the-loop-testing/">
+<span class="md-ellipsis">
+    Hardware-in-the-Loop Testing
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_7" type="checkbox"/>
+<label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+<span class="md-ellipsis">
+    I
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_7_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_7">
+<span class="md-nav__icon md-icon"></span>
+            I
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../industrial-architecture/">
+<span class="md-ellipsis">
+    Industrial Architecture
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../industrial-data-collection/">
+<span class="md-ellipsis">
+    Industrial Data Collection
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../industrial-internet-of-things/">
+<span class="md-ellipsis">
+    Industrial Internet of Things
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../industry-4.0/">
+<span class="md-ellipsis">
+    Industry 4.0
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../integrals/">
+<span class="md-ellipsis">
+    Integrals
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_8" type="checkbox"/>
+<label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+<span class="md-ellipsis">
+    L
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_8_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_8">
+<span class="md-nav__icon md-icon"></span>
+            L
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../labview/">
+<span class="md-ellipsis">
+    LabVIEW
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_9" type="checkbox"/>
+<label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+<span class="md-ellipsis">
+    M
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_9_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_9">
+<span class="md-nav__icon md-icon"></span>
+            M
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../matlab/">
+<span class="md-ellipsis">
+    MATLAB
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../model-based-design/">
+<span class="md-ellipsis">
+    Model-Based Design
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../model-based-systems-engineering/">
+<span class="md-ellipsis">
+    Model-Based Systems Engineering
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../monitoring/">
+<span class="md-ellipsis">
+    Monitoring
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    MQTT
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+<span class="md-ellipsis">
+    MQTT
+  </span>
+</a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#core-fundamentals">
+<span class="md-ellipsis">
+      Core Fundamentals
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mqtt-architecture-and-components">
+<span class="md-ellipsis">
+      MQTT Architecture and Components
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#applications-and-use-cases">
+<span class="md-ellipsis">
+      Applications and Use Cases
+    </span>
+</a>
+<nav aria-label="Applications and Use Cases" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#industrial-monitoring-and-control">
+<span class="md-ellipsis">
+      Industrial Monitoring and Control
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#iot-device-communication">
+<span class="md-ellipsis">
+      IoT Device Communication
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#building-automation">
+<span class="md-ellipsis">
+      Building Automation
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mqtt-quality-of-service-levels">
+<span class="md-ellipsis">
+      MQTT Quality of Service Levels
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#implementation-technologies">
+<span class="md-ellipsis">
+      Implementation Technologies
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#security-considerations">
+<span class="md-ellipsis">
+      Security Considerations
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#performance-and-scalability">
+<span class="md-ellipsis">
+      Performance and Scalability
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#best-practices-and-implementation-guidelines">
+<span class="md-ellipsis">
+      Best Practices and Implementation Guidelines
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#integration-with-industrial-systems">
+<span class="md-ellipsis">
+      Integration with Industrial Systems
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#python-mqtt-client-development">
+<span class="md-ellipsis">
+      Python MQTT Client Development
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#related-concepts">
+<span class="md-ellipsis">
+      Related Concepts
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_10" type="checkbox"/>
+<label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+<span class="md-ellipsis">
+    O
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_10_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_10">
+<span class="md-nav__icon md-icon"></span>
+            O
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../opc-ua/">
+<span class="md-ellipsis">
+    OPC UA
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_11" type="checkbox"/>
+<label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+<span class="md-ellipsis">
+    R
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_11_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_11">
+<span class="md-nav__icon md-icon"></span>
+            R
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../real-time-analytics/">
+<span class="md-ellipsis">
+    Real-Time Analytics
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_12" type="checkbox"/>
+<label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+<span class="md-ellipsis">
+    S
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_12_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_12">
+<span class="md-nav__icon md-icon"></span>
+            S
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../sensor-data/">
+<span class="md-ellipsis">
+    Sensor Data
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../simulation/">
+<span class="md-ellipsis">
+    Simulation
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_13" type="checkbox"/>
+<label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="0">
+<span class="md-ellipsis">
+    T
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_13_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_13">
+<span class="md-nav__icon md-icon"></span>
+            T
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../telemetry-data/">
+<span class="md-ellipsis">
+    Telemetry Data
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../time-series-analysis/">
+<span class="md-ellipsis">
+    Time-Series Analysis
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_14" type="checkbox"/>
+<label class="md-nav__link" for="__nav_14" id="__nav_14_label" tabindex="0">
+<span class="md-ellipsis">
+    U
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_14_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_14">
+<span class="md-nav__icon md-icon"></span>
+            U
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../unified-namespace/">
+<span class="md-ellipsis">
+    Unified Namespace
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#core-fundamentals">
+<span class="md-ellipsis">
+      Core Fundamentals
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mqtt-architecture-and-components">
+<span class="md-ellipsis">
+      MQTT Architecture and Components
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#applications-and-use-cases">
+<span class="md-ellipsis">
+      Applications and Use Cases
+    </span>
+</a>
+<nav aria-label="Applications and Use Cases" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#industrial-monitoring-and-control">
+<span class="md-ellipsis">
+      Industrial Monitoring and Control
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#iot-device-communication">
+<span class="md-ellipsis">
+      IoT Device Communication
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#building-automation">
+<span class="md-ellipsis">
+      Building Automation
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mqtt-quality-of-service-levels">
+<span class="md-ellipsis">
+      MQTT Quality of Service Levels
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#implementation-technologies">
+<span class="md-ellipsis">
+      Implementation Technologies
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#security-considerations">
+<span class="md-ellipsis">
+      Security Considerations
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#performance-and-scalability">
+<span class="md-ellipsis">
+      Performance and Scalability
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#best-practices-and-implementation-guidelines">
+<span class="md-ellipsis">
+      Best Practices and Implementation Guidelines
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#integration-with-industrial-systems">
+<span class="md-ellipsis">
+      Integration with Industrial Systems
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#python-mqtt-client-development">
+<span class="md-ellipsis">
+      Python MQTT Client Development
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#related-concepts">
+<span class="md-ellipsis">
+      Related Concepts
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1 id="mqtt">MQTT</h1>
+<details class="info" open="open">
+<summary>Summary</summary>
+<p>MQTT (Message Queuing Telemetry Transport) is a lightweight, publish-subscribe messaging protocol designed for efficient communication between devices in constrained network environments. MQTT enables reliable data transmission for Internet of Things applications, industrial monitoring systems, and distributed sensor networks through a simple broker-based architecture. This protocol is essential for <a href="/glossary/industrial-internet-of-things/">Industrial Internet of Things</a> implementations and <a href="/glossary/telemetry-data/">telemetry data</a> collection, supporting scalable IoT broker deployments and efficient Python MQTT client implementations that enable real-time communication between industrial devices and monitoring systems.</p>
+</details>
+<h2 id="core-fundamentals">Core Fundamentals</h2>
+<p>MQTT operates on a publish-subscribe messaging pattern that decouples data producers from data consumers through an intermediary message broker. This architecture enables flexible, scalable communication where devices can publish data to specific topics without knowing which systems will consume the information, and subscribers can receive relevant data without direct connection to data sources.</p>
+<p>The protocol was originally designed for satellite communication and remote monitoring applications where network bandwidth is limited and connection reliability may be intermittent. These design principles make MQTT particularly well-suited for industrial applications where devices operate in challenging environments with varying network conditions.</p>
+<p>MQTT's lightweight nature minimizes protocol overhead, making it efficient for battery-powered devices and low-bandwidth networks. The protocol supports various quality of service levels that balance delivery guarantees against network efficiency based on application requirements.</p>
+<h2 id="mqtt-architecture-and-components">MQTT Architecture and Components</h2>
+<p>The MQTT ecosystem comprises several key components:</p>
+<ol>
+<li><strong>MQTT Broker</strong>: Central server that receives published messages and distributes them to appropriate subscribers</li>
+<li><strong>MQTT Publishers</strong>: Devices or applications that send data to specific topics on the broker</li>
+<li><strong>MQTT Subscribers</strong>: Applications that receive data from topics of interest</li>
+<li><strong>Topic Hierarchy</strong>: Hierarchical naming structure that organizes messages by subject or data type</li>
+<li><strong>Quality of Service (QoS)</strong>: Delivery guarantee levels that balance reliability against performance</li>
+<li><strong>Retained Messages</strong>: Persistent messages that new subscribers receive immediately upon connection</li>
+</ol>
+<pre class="mermaid"><code>graph TD
+    A[Industrial Sensors] --&gt;|Publish Data| B[MQTT Broker]
+    C[Control Systems] --&gt;|Publish Commands| B
+    B --&gt;|Subscribe to Topics| D[Monitoring Applications]
+    B --&gt;|Subscribe to Alerts| E[Notification Systems]
+    B --&gt;|Subscribe to Data| F[Analytics Platforms]
+    G[Python MQTT Client] --&gt;|Connect| B
+    H[IoT Devices] --&gt;|Telemetry| B
+    B --&gt;|Retained Messages| I[New Subscribers]
+    J[Topic Hierarchy] --&gt;|Organization| B</code></pre>
+<h2 id="applications-and-use-cases">Applications and Use Cases</h2>
+<h3 id="industrial-monitoring-and-control">Industrial Monitoring and Control</h3>
+<p>MQTT enables comprehensive monitoring of industrial equipment and processes through efficient sensor data collection and real-time alert distribution. Manufacturing facilities use MQTT to collect data from distributed sensors, monitor equipment health, and coordinate automated responses to operational events.</p>
+<h3 id="iot-device-communication">IoT Device Communication</h3>
+<p>Connected devices leverage MQTT for reliable communication with cloud platforms and edge systems. The protocol's efficiency makes it suitable for battery-powered sensors, mobile equipment, and remote monitoring applications where power consumption and network usage must be minimized.</p>
+<h3 id="building-automation">Building Automation</h3>
+<p>Smart building systems use MQTT for coordinating HVAC controls, lighting systems, security devices, and energy management equipment. The protocol's topic-based organization enables flexible system integration and simplified device management.</p>
+<h2 id="mqtt-quality-of-service-levels">MQTT Quality of Service Levels</h2>
+<p><strong>QoS 0 (At most once)</strong>: Fire-and-forget delivery where messages are sent once without acknowledgment. This level provides maximum efficiency but no delivery guarantees, suitable for non-critical telemetry data where occasional message loss is acceptable.</p>
+<p><strong>QoS 1 (At least once)</strong>: Guaranteed delivery with acknowledgment, ensuring messages reach their destination but potentially allowing duplicates. This level balances reliability with efficiency for most industrial applications.</p>
+<p><strong>QoS 2 (Exactly once)</strong>: Highest reliability level that guarantees single message delivery through a four-step handshake process. This level is appropriate for critical control commands where duplicate execution could cause safety or operational issues.</p>
+<h2 id="implementation-technologies">Implementation Technologies</h2>
+<p><strong>Python MQTT Client Libraries</strong>: Popular Python libraries including paho-mqtt and asyncio-mqtt provide comprehensive MQTT client functionality for industrial applications. These libraries support both synchronous and asynchronous programming models, enabling efficient integration with existing Python-based systems.</p>
+<p><strong>MQTT Monitor Tools</strong>: Specialized monitoring applications enable real-time observation of MQTT traffic, topic activity, and broker performance. These tools support system debugging, performance optimization, and security monitoring for industrial MQTT deployments.</p>
+<p><strong>IoT Broker Platforms</strong>: Enterprise-grade MQTT brokers such as HiveMQ, Eclipse Mosquitto, and AWS IoT Core provide scalable, reliable messaging infrastructure with advanced features including clustering, security, and analytics integration.</p>
+<h2 id="security-considerations">Security Considerations</h2>
+<p><strong>Authentication and Authorization</strong>: MQTT brokers implement various authentication mechanisms including username/password, certificate-based authentication, and integration with enterprise identity systems. Topic-level authorization controls ensure devices and applications can only access appropriate data.</p>
+<p><strong>Transport Layer Security</strong>: MQTT over TLS (MQTTS) provides encrypted communication that protects message content and prevents eavesdropping. Certificate management and proper TLS configuration are essential for secure industrial deployments.</p>
+<p><strong>Network Segmentation</strong>: Industrial MQTT deployments often implement network segmentation that isolates operational technology (OT) networks from information technology (IT) systems while enabling controlled data exchange through secure gateways.</p>
+<h2 id="performance-and-scalability">Performance and Scalability</h2>
+<p><strong>Broker Clustering</strong>: Large-scale MQTT deployments leverage broker clustering and load balancing to handle thousands of concurrent connections while maintaining high availability. Distributed broker architectures enable geographic distribution and fault tolerance.</p>
+<p><strong>Message Persistence</strong>: MQTT brokers provide message persistence capabilities that ensure message delivery even when subscribers are temporarily offline. Persistent session state and message queuing support reliable communication in unstable network environments.</p>
+<p><strong>Connection Management</strong>: Efficient connection handling through features such as keep-alive mechanisms, clean sessions, and automatic reconnection help maintain system reliability while minimizing network overhead.</p>
+<h2 id="best-practices-and-implementation-guidelines">Best Practices and Implementation Guidelines</h2>
+<ol>
+<li><strong>Design hierarchical topic structures</strong> that organize data logically and enable efficient subscription patterns</li>
+<li><strong>Implement appropriate QoS levels</strong> based on application criticality and network characteristics</li>
+<li><strong>Configure security measures</strong> including authentication, encryption, and access control appropriate for industrial environments</li>
+<li><strong>Monitor broker performance</strong> including connection counts, message rates, and system resource utilization</li>
+<li><strong>Plan for scalability</strong> by selecting broker technologies and architectures that can handle anticipated growth</li>
+<li><strong>Implement error handling</strong> and reconnection logic in client applications to handle network disruptions gracefully</li>
+</ol>
+<h2 id="integration-with-industrial-systems">Integration with Industrial Systems</h2>
+<p>MQTT integrates closely with industrial automation systems through protocol gateways that translate between MQTT and traditional industrial protocols such as Modbus, DNP3, and <a href="/glossary/opc-ua/">OPC UA</a>. These gateways enable gradual migration to IoT-based architectures while preserving existing system investments.</p>
+<p>The protocol supports <a href="/glossary/unified-namespace/">unified namespace</a> implementations by providing the messaging infrastructure necessary for centralized data organization and distribution. Integration with <a href="/glossary/real-time-analytics/">real-time analytics</a> systems enables immediate processing of streaming data from distributed industrial devices.</p>
+<h2 id="python-mqtt-client-development">Python MQTT Client Development</h2>
+<p>Python MQTT client development leverages libraries that provide both simple and advanced functionality for industrial applications. Asynchronous programming models enable efficient handling of multiple connections and high-frequency data streams while maintaining responsiveness for control applications.</p>
+<p>Client applications must implement proper error handling, connection management, and data validation to ensure reliable operation in industrial environments. Thread-safe programming practices and proper resource management are essential for production deployments.</p>
+<h2 id="related-concepts">Related Concepts</h2>
+<p>MQTT serves as a foundational protocol for <a href="/glossary/sensor-data/">sensor data</a> collection and <a href="/glossary/telemetry-data/">telemetry data</a> transmission in industrial environments. The protocol integrates with <a href="/glossary/time-series-analysis/">time series analysis</a> systems and <a href="/glossary/monitoring/">monitoring</a> platforms to enable comprehensive operational visibility.</p>
+<p><a href="/glossary/event-driven-architecture/">Event driven architecture</a> implementations often leverage MQTT for real-time event distribution and system coordination. <a href="/glossary/data-integration/">Data integration</a> strategies use MQTT as a lightweight transport mechanism for operational data exchange.</p>
+<p>MQTT represents an essential communication protocol for modern industrial IoT implementations that enables efficient, reliable, and scalable device connectivity. The protocol's lightweight design and flexible architecture make it particularly well-suited for industrial environments where network constraints and device diversity present significant communication challenges.</p>
+</article>
+</div>
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+</div>
+</main>
+<footer class="md-footer">
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+<script src="../assets/javascripts/bundle.caa56a14.min.js"></script>
+</body>
+</html>

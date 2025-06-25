@@ -1,0 +1,863 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="../event-driven-architecture/" rel="prev"/>
+<link href="../hardware-in-the-loop-testing/" rel="next"/>
+<link href="../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.5.3, mkdocs-material-9.5.7" name="generator"/>
+<title>Functional Mock-Up Unit - Glossary</title>
+<link href="../assets/stylesheets/main.f2e4d321.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+</head>
+<body dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#functional-mock-up-unit-fmu">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header md-header--shadow" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="Glossary" class="md-header__button md-logo" data-md-component="logo" href=".." title="Glossary">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Glossary
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Functional Mock-Up Unit
+            
+          </span>
+</div>
+</div>
+</div>
+<script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Glossary" class="md-nav__button md-logo" data-md-component="logo" href=".." title="Glossary">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+</a>
+    Glossary
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+<span class="md-ellipsis">
+    A
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_1_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_1">
+<span class="md-nav__icon md-icon"></span>
+            A
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../anomaly-detection/">
+<span class="md-ellipsis">
+    Anomaly Detection
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+<span class="md-ellipsis">
+    C
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+            C
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../configuration-management/">
+<span class="md-ellipsis">
+    Configuration Management
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+<span class="md-ellipsis">
+    D
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+            D
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data-integration/">
+<span class="md-ellipsis">
+    Data Integration
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data-orchestration/">
+<span class="md-ellipsis">
+    Data Orchestration
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data-preparation/">
+<span class="md-ellipsis">
+    Data Preparation
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data-transformation/">
+<span class="md-ellipsis">
+    Data Transformation
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../digital-twin/">
+<span class="md-ellipsis">
+    Digital Twin
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+<span class="md-ellipsis">
+    E
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+            E
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../event-driven-architecture/">
+<span class="md-ellipsis">
+    Event-Driven Architecture
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+<span class="md-ellipsis">
+    F
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_5_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_5">
+<span class="md-nav__icon md-icon"></span>
+            F
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    Functional Mock-Up Unit
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+<span class="md-ellipsis">
+    Functional Mock-Up Unit
+  </span>
+</a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#core-fundamentals">
+<span class="md-ellipsis">
+      Core Fundamentals
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#fmu-architecture-and-components">
+<span class="md-ellipsis">
+      FMU Architecture and Components
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#applications-and-use-cases">
+<span class="md-ellipsis">
+      Applications and Use Cases
+    </span>
+</a>
+<nav aria-label="Applications and Use Cases" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#multi-domain-system-modeling">
+<span class="md-ellipsis">
+      Multi-Domain System Modeling
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#supplier-collaboration">
+<span class="md-ellipsis">
+      Supplier Collaboration
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#tool-integration">
+<span class="md-ellipsis">
+      Tool Integration
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#fmi-standards-and-versions">
+<span class="md-ellipsis">
+      FMI Standards and Versions
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#model-exchange-vs-co-simulation">
+<span class="md-ellipsis">
+      Model Exchange vs. Co-Simulation
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#implementation-technologies">
+<span class="md-ellipsis">
+      Implementation Technologies
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#performance-and-optimization">
+<span class="md-ellipsis">
+      Performance and Optimization
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#intellectual-property-protection">
+<span class="md-ellipsis">
+      Intellectual Property Protection
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#best-practices-and-implementation-guidelines">
+<span class="md-ellipsis">
+      Best Practices and Implementation Guidelines
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#integration-with-development-workflows">
+<span class="md-ellipsis">
+      Integration with Development Workflows
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#validation-and-verification">
+<span class="md-ellipsis">
+      Validation and Verification
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#related-concepts">
+<span class="md-ellipsis">
+      Related Concepts
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+<span class="md-ellipsis">
+    H
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_6">
+<span class="md-nav__icon md-icon"></span>
+            H
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../hardware-in-the-loop-testing/">
+<span class="md-ellipsis">
+    Hardware-in-the-Loop Testing
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_7" type="checkbox"/>
+<label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+<span class="md-ellipsis">
+    I
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_7_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_7">
+<span class="md-nav__icon md-icon"></span>
+            I
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../industrial-architecture/">
+<span class="md-ellipsis">
+    Industrial Architecture
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../industrial-data-collection/">
+<span class="md-ellipsis">
+    Industrial Data Collection
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../industrial-internet-of-things/">
+<span class="md-ellipsis">
+    Industrial Internet of Things
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../industry-4.0/">
+<span class="md-ellipsis">
+    Industry 4.0
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../integrals/">
+<span class="md-ellipsis">
+    Integrals
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_8" type="checkbox"/>
+<label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+<span class="md-ellipsis">
+    L
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_8_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_8">
+<span class="md-nav__icon md-icon"></span>
+            L
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../labview/">
+<span class="md-ellipsis">
+    LabVIEW
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_9" type="checkbox"/>
+<label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+<span class="md-ellipsis">
+    M
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_9_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_9">
+<span class="md-nav__icon md-icon"></span>
+            M
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../matlab/">
+<span class="md-ellipsis">
+    MATLAB
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../model-based-design/">
+<span class="md-ellipsis">
+    Model-Based Design
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../model-based-systems-engineering/">
+<span class="md-ellipsis">
+    Model-Based Systems Engineering
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../monitoring/">
+<span class="md-ellipsis">
+    Monitoring
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../mqtt/">
+<span class="md-ellipsis">
+    MQTT
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_10" type="checkbox"/>
+<label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+<span class="md-ellipsis">
+    O
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_10_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_10">
+<span class="md-nav__icon md-icon"></span>
+            O
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../opc-ua/">
+<span class="md-ellipsis">
+    OPC UA
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_11" type="checkbox"/>
+<label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+<span class="md-ellipsis">
+    R
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_11_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_11">
+<span class="md-nav__icon md-icon"></span>
+            R
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../real-time-analytics/">
+<span class="md-ellipsis">
+    Real-Time Analytics
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_12" type="checkbox"/>
+<label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+<span class="md-ellipsis">
+    S
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_12_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_12">
+<span class="md-nav__icon md-icon"></span>
+            S
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../sensor-data/">
+<span class="md-ellipsis">
+    Sensor Data
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../simulation/">
+<span class="md-ellipsis">
+    Simulation
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_13" type="checkbox"/>
+<label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="0">
+<span class="md-ellipsis">
+    T
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_13_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_13">
+<span class="md-nav__icon md-icon"></span>
+            T
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../telemetry-data/">
+<span class="md-ellipsis">
+    Telemetry Data
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../time-series-analysis/">
+<span class="md-ellipsis">
+    Time-Series Analysis
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_14" type="checkbox"/>
+<label class="md-nav__link" for="__nav_14" id="__nav_14_label" tabindex="0">
+<span class="md-ellipsis">
+    U
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_14_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_14">
+<span class="md-nav__icon md-icon"></span>
+            U
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../unified-namespace/">
+<span class="md-ellipsis">
+    Unified Namespace
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#core-fundamentals">
+<span class="md-ellipsis">
+      Core Fundamentals
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#fmu-architecture-and-components">
+<span class="md-ellipsis">
+      FMU Architecture and Components
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#applications-and-use-cases">
+<span class="md-ellipsis">
+      Applications and Use Cases
+    </span>
+</a>
+<nav aria-label="Applications and Use Cases" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#multi-domain-system-modeling">
+<span class="md-ellipsis">
+      Multi-Domain System Modeling
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#supplier-collaboration">
+<span class="md-ellipsis">
+      Supplier Collaboration
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#tool-integration">
+<span class="md-ellipsis">
+      Tool Integration
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#fmi-standards-and-versions">
+<span class="md-ellipsis">
+      FMI Standards and Versions
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#model-exchange-vs-co-simulation">
+<span class="md-ellipsis">
+      Model Exchange vs. Co-Simulation
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#implementation-technologies">
+<span class="md-ellipsis">
+      Implementation Technologies
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#performance-and-optimization">
+<span class="md-ellipsis">
+      Performance and Optimization
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#intellectual-property-protection">
+<span class="md-ellipsis">
+      Intellectual Property Protection
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#best-practices-and-implementation-guidelines">
+<span class="md-ellipsis">
+      Best Practices and Implementation Guidelines
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#integration-with-development-workflows">
+<span class="md-ellipsis">
+      Integration with Development Workflows
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#validation-and-verification">
+<span class="md-ellipsis">
+      Validation and Verification
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#related-concepts">
+<span class="md-ellipsis">
+      Related Concepts
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1 id="functional-mock-up-unit-fmu">Functional Mock-up Unit (FMU)</h1>
+<details class="info" open="open">
+<summary>Summary</summary>
+<p>A Functional Mock-up Unit (FMU) is a standardized software component that encapsulates simulation models and enables model exchange and co-simulation between different modeling tools and platforms. FMU technology supports <a href="/glossary/model-based-design/">Model Based Design</a> workflows by providing a vendor-neutral format for sharing simulation models across different engineering teams, tools, and organizations. This standardization is fundamental to collaborative <a href="/glossary/simulation/">simulation</a> projects, <a href="/glossary/digital-twin/">digital twin</a> development, and multi-domain system modeling, enabling seamless integration of models developed in different environments while maintaining intellectual property protection and computational efficiency.</p>
+</details>
+<h2 id="core-fundamentals">Core Fundamentals</h2>
+<p>The Functional Mock-up Interface (FMI) standard defines FMU as a software package containing mathematical models, solver algorithms, and metadata that describes the model's interfaces and capabilities. FMUs encapsulate simulation models in a standardized container that can be executed within any FMI-compliant simulation environment.</p>
+<p>The fundamental purpose of FMU technology is to enable model interoperability across different simulation tools, engineering disciplines, and organizational boundaries. This standardization addresses the challenge of integrating models developed using different tools, programming languages, and modeling methodologies into comprehensive system simulations.</p>
+<p>FMUs support two primary use cases: Model Exchange where the importing tool provides the numerical solver, and Co-Simulation where the FMU contains its own solver and communicates with other simulation components through standardized interfaces.</p>
+<h2 id="fmu-architecture-and-components">FMU Architecture and Components</h2>
+<p>An FMU comprises several standardized components:</p>
+<ol>
+<li><strong>Model Description</strong>: XML file that defines model interfaces, parameters, and capabilities</li>
+<li><strong>Implementation</strong>: Compiled code (C functions) that implements the mathematical model</li>
+<li><strong>Documentation</strong>: Optional documentation including model descriptions and usage guidelines</li>
+<li><strong>Resources</strong>: Additional files including lookup tables, configuration files, and auxiliary data</li>
+<li><strong>FMI Interface</strong>: Standardized API that enables communication with importing simulation tools</li>
+<li><strong>Platform Binaries</strong>: Platform-specific compiled libraries for different operating systems</li>
+</ol>
+<pre class="mermaid"><code>graph TD
+    A[Source Model] --&gt;|Export| B[FMU Package]
+    B --&gt;|Model Description| C[XML Metadata]
+    B --&gt;|Implementation| D[C Library]
+    B --&gt;|Resources| E[Auxiliary Files]
+    C --&gt;|Interface Definition| F[Importing Tool]
+    D --&gt;|Model Execution| F
+    E --&gt;|Configuration| F
+    F --&gt;|Co-simulation| G[System Simulation]
+    H[Multiple FMUs] --&gt;|Integration| G
+    I[Model Exchange] --&gt;|Solver| F
+    J[Co-simulation] --&gt;|Internal Solver| D</code></pre>
+<h2 id="applications-and-use-cases">Applications and Use Cases</h2>
+<h3 id="multi-domain-system-modeling">Multi-Domain System Modeling</h3>
+<p>FMUs enable integration of models from different engineering domains including mechanical, electrical, hydraulic, and thermal systems into comprehensive system simulations. Each domain expert can use specialized tools while contributing to overall system analysis through standardized FMU interfaces.</p>
+<h3 id="supplier-collaboration">Supplier Collaboration</h3>
+<p>Automotive and aerospace industries use FMUs to enable collaboration between OEMs and suppliers while protecting intellectual property. Suppliers can provide validated simulation models without revealing proprietary algorithms or implementation details.</p>
+<h3 id="tool-integration">Tool Integration</h3>
+<p>Engineering organizations leverage FMUs to integrate models across different simulation platforms including MATLAB/Simulink, Modelica tools, and specialized domain-specific simulators. This integration enables leveraging the best tools for specific applications while maintaining workflow continuity.</p>
+<h2 id="fmi-standards-and-versions">FMI Standards and Versions</h2>
+<p><strong>FMI 1.0</strong>: Initial standard that established basic model exchange and co-simulation capabilities. This version provided foundational interoperability but had limitations in advanced features and performance optimization.</p>
+<p><strong>FMI 2.0</strong>: Enhanced standard that added support for hybrid systems, improved co-simulation algorithms, and better handling of discontinuous events. FMI 2.0 became widely adopted across the simulation industry.</p>
+<p><strong>FMI 3.0</strong>: Latest standard that introduces advanced features including intermediate variable access, event indicators, and improved debugging capabilities. This version enhances performance and supports more sophisticated simulation scenarios.</p>
+<h2 id="model-exchange-vs-co-simulation">Model Exchange vs. Co-Simulation</h2>
+<p><strong>Model Exchange</strong>: The importing simulation tool provides the numerical solver and directly calls the FMU's derivative calculation functions. This approach provides optimal performance and solver control but requires the importing tool to handle numerical integration.</p>
+<p><strong>Co-Simulation</strong>: Each FMU contains its own solver and advances its internal state independently. The simulation environment coordinates communication between FMUs and manages the overall simulation time progression. This approach provides better encapsulation but may have performance limitations.</p>
+<p><strong>Hybrid Approaches</strong>: Advanced simulation environments support both model exchange and co-simulation within the same simulation, enabling optimal trade-offs between performance and encapsulation based on specific model characteristics.</p>
+<h2 id="implementation-technologies">Implementation Technologies</h2>
+<p><strong>Model Development</strong>: FMUs can be generated from various modeling environments including Modelica tools (Dymola, OpenModelica), MATLAB/Simulink, and specialized simulation software. Code generation tools automatically create FMU packages from high-level model descriptions.</p>
+<p><strong>Simulation Platforms</strong>: FMI-compliant simulation platforms including AVL CRUISE, IPG CarMaker, and ANSYS Twin Builder can import and execute FMUs within comprehensive system simulations. These platforms provide FMU management, debugging, and analysis capabilities.</p>
+<p><strong>Custom Development</strong>: Organizations can develop custom FMUs using the FMI C interface for specialized models or legacy code integration. Development tools and templates facilitate FMU creation while ensuring compliance with FMI standards.</p>
+<h2 id="performance-and-optimization">Performance and Optimization</h2>
+<p><strong>Communication Overhead</strong>: FMU performance depends on communication frequency and data exchange volume between FMUs and the simulation environment. Efficient variable handling and appropriate communication step sizes optimize overall simulation performance.</p>
+<p><strong>Solver Selection</strong>: Model exchange FMUs benefit from advanced solvers provided by importing tools, while co-simulation FMUs must rely on embedded solvers. Solver selection significantly impacts simulation accuracy and performance.</p>
+<p><strong>Parallelization</strong>: Modern simulation environments leverage parallel processing capabilities to execute multiple FMUs simultaneously. Parallel co-simulation can significantly reduce simulation time for large system models.</p>
+<h2 id="intellectual-property-protection">Intellectual Property Protection</h2>
+<p><strong>Binary Distribution</strong>: FMUs distribute models as compiled binary code rather than source code, protecting intellectual property while enabling model sharing. This approach enables collaboration without revealing proprietary algorithms or implementation details.</p>
+<p><strong>Parameter Encryption</strong>: Advanced FMU implementations support parameter encryption and licensing mechanisms that provide additional intellectual property protection. These features enable controlled access to sensitive model parameters and capabilities.</p>
+<p><strong>Access Control</strong>: FMU metadata can specify access restrictions and usage limitations that control how models can be used within different simulation contexts. These mechanisms support business models based on controlled model sharing.</p>
+<h2 id="best-practices-and-implementation-guidelines">Best Practices and Implementation Guidelines</h2>
+<ol>
+<li><strong>Design clear model interfaces</strong> that provide necessary functionality while minimizing complexity</li>
+<li><strong>Implement robust error handling</strong> to ensure graceful degradation during simulation failures</li>
+<li><strong>Optimize communication patterns</strong> to balance accuracy against performance requirements</li>
+<li><strong>Maintain comprehensive documentation</strong> including model assumptions, limitations, and usage guidelines</li>
+<li><strong>Test across multiple platforms</strong> to ensure compatibility with different simulation environments</li>
+<li><strong>Plan for version management</strong> to handle model evolution and backward compatibility</li>
+</ol>
+<h2 id="integration-with-development-workflows">Integration with Development Workflows</h2>
+<p>FMUs integrate closely with <a href="/glossary/model-based-design/">Model Based Design</a> methodologies by providing standardized model exchange capabilities throughout the development process. Integration with version control systems and model management platforms enables systematic FMU lifecycle management.</p>
+<p>The technology supports <a href="/glossary/hardware-in-the-loop-testing/">Hardware-in-the-Loop Testing</a> by enabling real-time execution of FMU models within HIL simulation environments. FMUs can also contribute to <a href="/glossary/digital-twin/">digital twin</a> implementations through real-time model execution and parameter updating.</p>
+<h2 id="validation-and-verification">Validation and Verification</h2>
+<p><strong>Model Validation</strong>: FMU validation involves testing model behavior against reference implementations and experimental data. Standardized test procedures ensure FMU accuracy and reliability across different simulation environments.</p>
+<p><strong>Interface Testing</strong>: FMI compliance testing verifies that FMUs correctly implement the standardized interface and respond appropriately to simulation environment commands. Automated testing tools help ensure FMI standard compliance.</p>
+<p><strong>Cross-Platform Testing</strong>: FMUs must be tested across different operating systems, simulation tools, and hardware platforms to ensure consistent behavior and performance. Comprehensive testing matrices help identify platform-specific issues.</p>
+<h2 id="related-concepts">Related Concepts</h2>
+<p>FMU technology closely integrates with <a href="/glossary/simulation/">simulation</a> methodologies and <a href="/glossary/model-based-systems-engineering/">Model Based Systems Engineering</a> practices. The standard supports <a href="/glossary/matlab/">MATLAB</a> and Modelica tool interoperability through standardized model exchange.</p>
+<p><a href="/glossary/digital-twin/">Digital twin</a> implementations often leverage FMU models for real-time system representation and analysis. <a href="/glossary/configuration-management/">Configuration management</a> practices ensure systematic control of FMU versions and dependencies throughout complex simulation projects.</p>
+<p>Functional Mock-up Units represent a transformative technology for simulation model interoperability that enables collaborative engineering, tool integration, and intellectual property protection. The FMI standard's widespread adoption across the simulation industry makes FMU technology essential for modern multi-domain system development and complex simulation workflows.</p>
+</article>
+</div>
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+</div>
+</main>
+<footer class="md-footer">
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+<script src="../assets/javascripts/bundle.caa56a14.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,863 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="../digital-twin/" rel="prev"/>
+<link href="../functional-mock-up-unit/" rel="next"/>
+<link href="../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.5.3, mkdocs-material-9.5.7" name="generator"/>
+<title>Event-Driven Architecture - Glossary</title>
+<link href="../assets/stylesheets/main.f2e4d321.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+</head>
+<body dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#event-driven-architecture">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header md-header--shadow" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="Glossary" class="md-header__button md-logo" data-md-component="logo" href=".." title="Glossary">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Glossary
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Event-Driven Architecture
+            
+          </span>
+</div>
+</div>
+</div>
+<script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Glossary" class="md-nav__button md-logo" data-md-component="logo" href=".." title="Glossary">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+</a>
+    Glossary
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+<span class="md-ellipsis">
+    A
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_1_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_1">
+<span class="md-nav__icon md-icon"></span>
+            A
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../anomaly-detection/">
+<span class="md-ellipsis">
+    Anomaly Detection
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+<span class="md-ellipsis">
+    C
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+            C
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../configuration-management/">
+<span class="md-ellipsis">
+    Configuration Management
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+<span class="md-ellipsis">
+    D
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+            D
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data-integration/">
+<span class="md-ellipsis">
+    Data Integration
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data-orchestration/">
+<span class="md-ellipsis">
+    Data Orchestration
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data-preparation/">
+<span class="md-ellipsis">
+    Data Preparation
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data-transformation/">
+<span class="md-ellipsis">
+    Data Transformation
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../digital-twin/">
+<span class="md-ellipsis">
+    Digital Twin
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+<span class="md-ellipsis">
+    E
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+            E
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    Event-Driven Architecture
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+<span class="md-ellipsis">
+    Event-Driven Architecture
+  </span>
+</a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#core-fundamentals">
+<span class="md-ellipsis">
+      Core Fundamentals
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#event-driven-architecture-components">
+<span class="md-ellipsis">
+      Event Driven Architecture Components
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#applications-and-use-cases">
+<span class="md-ellipsis">
+      Applications and Use Cases
+    </span>
+</a>
+<nav aria-label="Applications and Use Cases" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#industrial-process-control">
+<span class="md-ellipsis">
+      Industrial Process Control
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#predictive-maintenance">
+<span class="md-ellipsis">
+      Predictive Maintenance
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#supply-chain-coordination">
+<span class="md-ellipsis">
+      Supply Chain Coordination
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#event-driven-architecture-kafka-implementation">
+<span class="md-ellipsis">
+      Event Driven Architecture Kafka Implementation
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#event-processing-patterns">
+<span class="md-ellipsis">
+      Event Processing Patterns
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#implementation-technologies-and-platforms">
+<span class="md-ellipsis">
+      Implementation Technologies and Platforms
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#event-driven-integration-strategies">
+<span class="md-ellipsis">
+      Event Driven Integration Strategies
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#scalability-and-performance-considerations">
+<span class="md-ellipsis">
+      Scalability and Performance Considerations
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#best-practices-and-design-guidelines">
+<span class="md-ellipsis">
+      Best Practices and Design Guidelines
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#security-and-governance">
+<span class="md-ellipsis">
+      Security and Governance
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#integration-with-industrial-systems">
+<span class="md-ellipsis">
+      Integration with Industrial Systems
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#related-concepts">
+<span class="md-ellipsis">
+      Related Concepts
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+<span class="md-ellipsis">
+    F
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_5_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_5">
+<span class="md-nav__icon md-icon"></span>
+            F
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../functional-mock-up-unit/">
+<span class="md-ellipsis">
+    Functional Mock-Up Unit
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+<span class="md-ellipsis">
+    H
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_6">
+<span class="md-nav__icon md-icon"></span>
+            H
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../hardware-in-the-loop-testing/">
+<span class="md-ellipsis">
+    Hardware-in-the-Loop Testing
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_7" type="checkbox"/>
+<label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+<span class="md-ellipsis">
+    I
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_7_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_7">
+<span class="md-nav__icon md-icon"></span>
+            I
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../industrial-architecture/">
+<span class="md-ellipsis">
+    Industrial Architecture
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../industrial-data-collection/">
+<span class="md-ellipsis">
+    Industrial Data Collection
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../industrial-internet-of-things/">
+<span class="md-ellipsis">
+    Industrial Internet of Things
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../industry-4.0/">
+<span class="md-ellipsis">
+    Industry 4.0
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../integrals/">
+<span class="md-ellipsis">
+    Integrals
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_8" type="checkbox"/>
+<label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+<span class="md-ellipsis">
+    L
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_8_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_8">
+<span class="md-nav__icon md-icon"></span>
+            L
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../labview/">
+<span class="md-ellipsis">
+    LabVIEW
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_9" type="checkbox"/>
+<label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+<span class="md-ellipsis">
+    M
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_9_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_9">
+<span class="md-nav__icon md-icon"></span>
+            M
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../matlab/">
+<span class="md-ellipsis">
+    MATLAB
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../model-based-design/">
+<span class="md-ellipsis">
+    Model-Based Design
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../model-based-systems-engineering/">
+<span class="md-ellipsis">
+    Model-Based Systems Engineering
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../monitoring/">
+<span class="md-ellipsis">
+    Monitoring
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../mqtt/">
+<span class="md-ellipsis">
+    MQTT
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_10" type="checkbox"/>
+<label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+<span class="md-ellipsis">
+    O
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_10_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_10">
+<span class="md-nav__icon md-icon"></span>
+            O
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../opc-ua/">
+<span class="md-ellipsis">
+    OPC UA
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_11" type="checkbox"/>
+<label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+<span class="md-ellipsis">
+    R
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_11_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_11">
+<span class="md-nav__icon md-icon"></span>
+            R
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../real-time-analytics/">
+<span class="md-ellipsis">
+    Real-Time Analytics
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_12" type="checkbox"/>
+<label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+<span class="md-ellipsis">
+    S
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_12_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_12">
+<span class="md-nav__icon md-icon"></span>
+            S
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../sensor-data/">
+<span class="md-ellipsis">
+    Sensor Data
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../simulation/">
+<span class="md-ellipsis">
+    Simulation
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_13" type="checkbox"/>
+<label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="0">
+<span class="md-ellipsis">
+    T
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_13_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_13">
+<span class="md-nav__icon md-icon"></span>
+            T
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../telemetry-data/">
+<span class="md-ellipsis">
+    Telemetry Data
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../time-series-analysis/">
+<span class="md-ellipsis">
+    Time-Series Analysis
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_14" type="checkbox"/>
+<label class="md-nav__link" for="__nav_14" id="__nav_14_label" tabindex="0">
+<span class="md-ellipsis">
+    U
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_14_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_14">
+<span class="md-nav__icon md-icon"></span>
+            U
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../unified-namespace/">
+<span class="md-ellipsis">
+    Unified Namespace
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#core-fundamentals">
+<span class="md-ellipsis">
+      Core Fundamentals
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#event-driven-architecture-components">
+<span class="md-ellipsis">
+      Event Driven Architecture Components
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#applications-and-use-cases">
+<span class="md-ellipsis">
+      Applications and Use Cases
+    </span>
+</a>
+<nav aria-label="Applications and Use Cases" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#industrial-process-control">
+<span class="md-ellipsis">
+      Industrial Process Control
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#predictive-maintenance">
+<span class="md-ellipsis">
+      Predictive Maintenance
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#supply-chain-coordination">
+<span class="md-ellipsis">
+      Supply Chain Coordination
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#event-driven-architecture-kafka-implementation">
+<span class="md-ellipsis">
+      Event Driven Architecture Kafka Implementation
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#event-processing-patterns">
+<span class="md-ellipsis">
+      Event Processing Patterns
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#implementation-technologies-and-platforms">
+<span class="md-ellipsis">
+      Implementation Technologies and Platforms
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#event-driven-integration-strategies">
+<span class="md-ellipsis">
+      Event Driven Integration Strategies
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#scalability-and-performance-considerations">
+<span class="md-ellipsis">
+      Scalability and Performance Considerations
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#best-practices-and-design-guidelines">
+<span class="md-ellipsis">
+      Best Practices and Design Guidelines
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#security-and-governance">
+<span class="md-ellipsis">
+      Security and Governance
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#integration-with-industrial-systems">
+<span class="md-ellipsis">
+      Integration with Industrial Systems
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#related-concepts">
+<span class="md-ellipsis">
+      Related Concepts
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1 id="event-driven-architecture">Event Driven Architecture</h1>
+<details class="info" open="open">
+<summary>Summary</summary>
+<p>Event Driven Architecture (EDA) is a software design pattern that enables applications and systems to respond to events in real-time through asynchronous communication and loosely coupled components. Event driven architecture supports scalable, responsive industrial systems by enabling immediate reactions to operational changes, equipment status updates, and process conditions through sophisticated event processing and distribution mechanisms. This architectural pattern is fundamental to <a href="/glossary/industrial-internet-of-things/">Industrial Internet of Things</a> implementations, <a href="/glossary/real-time-analytics/">real-time analytics</a>, and modern industrial automation, often leveraging event driven architecture Kafka implementations and event driven integration patterns that enable seamless coordination between distributed systems and applications.</p>
+</details>
+<h2 id="core-fundamentals">Core Fundamentals</h2>
+<p>Event Driven Architecture operates on the principle that system components communicate through the production and consumption of events rather than direct method calls or database queries. Events represent significant occurrences or state changes within the system, such as sensor readings exceeding thresholds, equipment failures, or process completions.</p>
+<p>The fundamental advantage of EDA lies in its ability to decouple event producers from event consumers, enabling systems to scale independently and adapt to changing requirements without requiring extensive modification of existing components. This loose coupling promotes system flexibility and enables rapid response to operational conditions.</p>
+<p>EDA enables real-time responsiveness by eliminating the need for continuous polling or periodic batch processing. Instead, systems react immediately to relevant events, reducing latency and improving operational efficiency through event-driven processing patterns.</p>
+<h2 id="event-driven-architecture-components">Event Driven Architecture Components</h2>
+<p>Modern EDA implementations comprise several key components:</p>
+<ol>
+<li><strong>Event Producers</strong>: Systems, sensors, or applications that generate events when significant conditions occur</li>
+<li><strong>Event Brokers</strong>: Middleware platforms that receive, route, and deliver events to appropriate consumers</li>
+<li><strong>Event Consumers</strong>: Applications or services that process events and execute appropriate responses</li>
+<li><strong>Event Store</strong>: Persistent storage for event history, enabling replay and audit capabilities</li>
+<li><strong>Event Processing Engine</strong>: Complex event processing capabilities that analyze patterns and correlations</li>
+<li><strong>Event Schemas</strong>: Standardized formats that define event structure and ensure interoperability</li>
+</ol>
+<pre class="mermaid"><code>graph TD
+    A[Industrial Equipment] --&gt;|Status Events| B[Event Broker]
+    C[Sensors] --&gt;|Measurement Events| B
+    D[Control Systems] --&gt;|Command Events| B
+    B --&gt;|Event Routing| E[Event Processing Engine]
+    E --&gt;|Alerts| F[Notification Services]
+    E --&gt;|Analytics| G[Real-time Dashboards]
+    E --&gt;|Control| H[Automated Responses]
+    B --&gt;|Persistence| I[Event Store]
+    I --&gt;|Replay| E
+    J[Event Driven Kafka] --&gt;|Streaming| B
+    K[Event Schemas] --&gt;|Structure| B</code></pre>
+<h2 id="applications-and-use-cases">Applications and Use Cases</h2>
+<h3 id="industrial-process-control">Industrial Process Control</h3>
+<p>Event driven architecture enables immediate response to process deviations, equipment alarms, and safety conditions in manufacturing environments. When sensors detect abnormal conditions, events trigger automated responses including process adjustments, safety shutdowns, and operator notifications.</p>
+<h3 id="predictive-maintenance">Predictive Maintenance</h3>
+<p>Equipment monitoring systems use EDA to immediately process vibration, temperature, and performance events that indicate potential failures. Machine learning algorithms analyze event patterns to predict maintenance needs and automatically generate work orders and resource allocation recommendations.</p>
+<h3 id="supply-chain-coordination">Supply Chain Coordination</h3>
+<p>Manufacturing operations leverage event driven integration to coordinate activities across suppliers, production facilities, and distribution networks. Events including order changes, delivery updates, and quality issues trigger appropriate responses throughout the supply chain.</p>
+<h2 id="event-driven-architecture-kafka-implementation">Event Driven Architecture Kafka Implementation</h2>
+<p><strong>Apache Kafka Platform</strong>: Kafka provides a distributed event streaming platform that serves as the backbone for many industrial EDA implementations. The platform offers high-throughput, fault-tolerant event processing with built-in partitioning and replication capabilities.</p>
+<p><strong>Topic-Based Organization</strong>: Kafka organizes events into topics that represent different event types or data streams. This organization enables efficient event routing and allows consumers to subscribe only to relevant event categories.</p>
+<p><strong>Stream Processing</strong>: Kafka Streams and other stream processing frameworks enable real-time analysis of event streams including aggregation, filtering, and complex event pattern recognition. These capabilities support sophisticated event-driven analytics and decision-making.</p>
+<h2 id="event-processing-patterns">Event Processing Patterns</h2>
+<p><strong>Simple Event Processing</strong>: Direct response to individual events where each event triggers a specific action or response. This pattern works well for straightforward automation and alerting scenarios.</p>
+<p><strong>Complex Event Processing (CEP)</strong>: Analysis of multiple related events to identify patterns, trends, and correlations that indicate significant conditions. CEP enables sophisticated decision-making based on event combinations and temporal relationships.</p>
+<p><strong>Event Sourcing</strong>: Architecture pattern where system state is derived from a sequence of events rather than current state snapshots. This approach provides complete audit trails and enables time-travel debugging and analysis.</p>
+<h2 id="implementation-technologies-and-platforms">Implementation Technologies and Platforms</h2>
+<p><strong>Message Brokers</strong>: Enterprise message brokers including Apache Kafka, RabbitMQ, and Apache Pulsar provide reliable event delivery, persistence, and routing capabilities. These platforms ensure events reach intended consumers even during system failures or network disruptions.</p>
+<p><strong>Event Streaming Platforms</strong>: Comprehensive event streaming solutions including Confluent Platform, Amazon Kinesis, and Azure Event Hubs provide managed event processing capabilities with built-in monitoring, security, and scaling features.</p>
+<p><strong>Microservices Integration</strong>: EDA naturally aligns with microservices architectures where individual services communicate through events rather than direct API calls. This approach enables independent service development and deployment while maintaining system coordination.</p>
+<h2 id="event-driven-integration-strategies">Event Driven Integration Strategies</h2>
+<p><strong>API Gateway Integration</strong>: Event driven systems often integrate with traditional REST APIs through gateway services that translate between synchronous requests and asynchronous events. This hybrid approach enables gradual migration to event-driven patterns.</p>
+<p><strong>Database Change Capture</strong>: Change data capture (CDC) technologies automatically generate events when database records are created, updated, or deleted. This approach enables real-time data synchronization and downstream processing without requiring application modifications.</p>
+<p><strong>Legacy System Integration</strong>: Event adapters and protocol gateways enable legacy industrial systems to participate in event-driven architectures without requiring extensive modification. These integration solutions translate between proprietary protocols and modern event formats.</p>
+<h2 id="scalability-and-performance-considerations">Scalability and Performance Considerations</h2>
+<p><strong>Horizontal Scaling</strong>: Event driven architectures naturally support horizontal scaling where additional event producers and consumers can be added without requiring changes to existing components. Load balancing and partitioning strategies distribute processing across multiple instances.</p>
+<p><strong>Asynchronous Processing</strong>: EDA's asynchronous nature enables better resource utilization and system responsiveness compared to synchronous processing patterns. Systems can handle event bursts and varying load patterns more efficiently.</p>
+<p><strong>Fault Tolerance</strong>: Event persistence and replay capabilities provide robust fault tolerance where system failures don't result in lost events or processing. Dead letter queues and retry mechanisms handle processing failures gracefully.</p>
+<h2 id="best-practices-and-design-guidelines">Best Practices and Design Guidelines</h2>
+<ol>
+<li><strong>Design clear event schemas</strong> that provide sufficient context while maintaining backward compatibility</li>
+<li><strong>Implement idempotent event processing</strong> to handle duplicate events gracefully</li>
+<li><strong>Establish event ordering strategies</strong> for scenarios where sequence matters</li>
+<li><strong>Plan for event versioning</strong> to support system evolution and schema changes</li>
+<li><strong>Monitor event flow and processing latency</strong> to ensure system performance</li>
+<li><strong>Implement comprehensive error handling</strong> including dead letter queues and alerting</li>
+</ol>
+<h2 id="security-and-governance">Security and Governance</h2>
+<p><strong>Event Security</strong>: EDA implementations require comprehensive security measures including authentication, authorization, and encryption for event transmission and storage. Access control policies determine which components can produce and consume specific event types.</p>
+<p><strong>Audit and Compliance</strong>: Event stores provide complete audit trails of system activities and decisions, supporting compliance requirements and incident investigation. Event schemas and governance policies ensure consistent event handling across the organization.</p>
+<p><strong>Data Privacy</strong>: Event processing must consider data privacy regulations including GDPR and industry-specific requirements. Event filtering and anonymization techniques help protect sensitive information while maintaining operational functionality.</p>
+<h2 id="integration-with-industrial-systems">Integration with Industrial Systems</h2>
+<p>Event driven architecture serves as a foundational pattern for <a href="/glossary/unified-namespace/">unified namespace</a> implementations and <a href="/glossary/industrial-internet-of-things/">Industrial Internet of Things</a> platforms. The pattern enables <a href="/glossary/real-time-analytics/">real-time analytics</a> through immediate event processing and analysis.</p>
+<p>EDA supports <a href="/glossary/digital-twin/">digital twin</a> implementations by providing real-time event feeds that maintain synchronization between physical and virtual systems. Integration with <a href="/glossary/monitoring/">monitoring</a> systems enables automated response to operational events and conditions.</p>
+<h2 id="related-concepts">Related Concepts</h2>
+<p>Event driven architecture closely integrates with <a href="/glossary/mqtt/">MQTT</a> messaging protocols and <a href="/glossary/data-integration/">data integration</a> platforms. The pattern supports <a href="/glossary/time-series-analysis/">time series analysis</a> through event-based data collection and processing.</p>
+<p><a href="/glossary/microservices/">Microservices architectures</a> often leverage EDA for service coordination and communication. <a href="/glossary/stream-processing/">Stream processing</a> technologies provide the computational foundation for real-time event analysis and decision-making.</p>
+<p>Event Driven Architecture represents a transformative approach to system design that enables responsive, scalable, and resilient industrial applications. The pattern's emphasis on loose coupling and real-time processing makes it essential for modern industrial automation, IoT implementations, and digital transformation initiatives that require immediate response to operational events and conditions.</p>
+</article>
+</div>
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+</div>
+</main>
+<footer class="md-footer">
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+<script src="../assets/javascripts/bundle.caa56a14.min.js"></script>
+</body>
+</html>
