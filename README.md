@@ -1,0 +1,1 @@
+# glossary-static-site-test
